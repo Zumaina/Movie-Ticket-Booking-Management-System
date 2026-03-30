@@ -19,7 +19,7 @@ export default function Navbar() {
 
   const navLinks = [
     { to: "/",             label: "HOME" },
-    { to: "/showtimes",    label: "SHOW TIMES" },
+    // { to: "/showtimes",    label: "SHOW TIMES" },
     ...(user?.role !== "admin" ? [
       { to: "/about",        label: "ABOUT US" },
       { to: "/contact",      label: "CONTACTS" },
